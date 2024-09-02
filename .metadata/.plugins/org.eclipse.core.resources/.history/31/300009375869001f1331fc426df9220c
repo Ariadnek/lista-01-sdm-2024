@@ -1,0 +1,9 @@
+package exercicio2;
+
+public class Atleta {
+
+	public Atleta() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

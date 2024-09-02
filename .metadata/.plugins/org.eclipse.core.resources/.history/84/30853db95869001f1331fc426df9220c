@@ -1,0 +1,22 @@
+package exercicio2;
+class Atleta {
+    // Propriedades privadas
+    private String nome;
+    private int qtdeMedalhas;
+    private String pais;
+
+    // Construtor para inicializar as propriedades
+    public Atleta(String nome, int qtdeMedalhas, String pais) {
+        this.nome = nome;
+        this.qtdeMedalhas = qtdeMedalhas;
+        this.pais = pais;
+    }
+
+    // Método para imprimir os dados do Atleta
+    public void imprimirDados() {
+        System.out.println("Nome do Atleta: " + nome);
+        System.out.println("Quantidade de Medalhas: " + qtdeMedalhas);
+        System.out.println("País: " + pais);
+    }
+}
+

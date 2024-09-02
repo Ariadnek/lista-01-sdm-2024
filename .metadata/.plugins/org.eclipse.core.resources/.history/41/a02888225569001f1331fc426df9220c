@@ -1,0 +1,12 @@
+package exercicio1;
+
+public class Programa {
+    public static void main(String[] args) {
+        // Criando uma instância da Universidade com os dados fornecidos
+        Universidade universidade = new Universidade("Universidade XYZ", "12.345.678/0001-99", "Rua Exemplo, 123", 20);
+        
+        // Imprimindo os dados da Universidade
+        universidade.imprimirDados();
+    }
+}
+

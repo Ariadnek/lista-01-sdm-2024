@@ -1,0 +1,25 @@
+package exercicio1;
+
+class Universidade {
+    // Propriedades privadas
+    private String nome;
+    private String cnpj;
+    private String endereco;
+    private int qtdeSalas;
+
+    // Construtor para inicializar as propriedades
+    public Universidade(String nome, String cnpj, String endereco, int qtdeSalas) {
+        this.nome = nome;
+        this.cnpj = cnpj;
+        this.endereco = endereco;
+        this.qtdeSalas = qtdeSalas;
+    }
+
+    // Método para imprimir os dados da Universidade
+    public void imprimirDados() {
+        System.out.println("Nome da Universidade: " + nome);
+        System.out.println("CNPJ: " + cnpj);
+        System.out.println("Endereço: " + endereco);
+        System.out.println("Quantidade de Salas: " + qtdeSalas);
+    }
+}
